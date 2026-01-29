@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prince Personal Portfolio </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+   <link rel="icon" href="OIP.jpg">
+
+
+  
+
+   
+</head>
+
+
+
+<body>
+    <header class="header">
+        <a href="#home" class="logo">Portfolio</a>
+       <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="home1">Home</a>
+            <a href="#about">About</a>
+            <a href="#Education">Education</a>
+            <a href="#Experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <!-- section for home page -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>PRince Yadav</h1>
+            <h3>And I'm a <span class="animated-text">Web Developer</span></h3>
+
+           <br>
+            <p>I love turning ideas into interactive and functional web experiences. Always eager to learn new technologies and improve my craft.</p>
+            <div class="social-media">
+                <a href="https://github.com/prince-yadav-518"  ><i class="fa-brands fa-square-github"></i></a>
+                <a href="https://www.linkedin.com/in/prince-yadav-58aa33309/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/i_m_prince_5_18/"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://x.com/princeyadav518"><i class="fa-brands fa-square-x-twitter"></i></a>
+            </div>
+            <a href="Resume.pdf" download="Prince_resume.pdf" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="IMG_20230902_203150_703-removebg-preview.png" alt=""  >
+        </div>
+    </section>
+    <!-- section for about page -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="IMG_20230902_203150_703-removebg-preview.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span >Me</span></h2>
+             
+            <h3>Web Developer</h3>
+            <p>Hi, I’m Prince Yadav, a passionate MERN Stack Developer who loves building modern, responsive, and user-friendly web applications. With hands-on experience in MongoDB, Express.js, React.js, and Node.js, I enjoy turning ideas into functional and interactive digital solutions.
+            <br>
+            <br>
+            I have built several projects using the MERN stack, focusing on clean code, optimized performance, and             smooth user experience. My goal is to grow as a full-stack developer, explore new technologies, and             contribute to impactful projects.
+            <br>
+            <br>
+            When I’m not coding, I love exploring new tech trends and continuously improving my problem-solving             skills.<p/>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+    <!-- section for servive page -->
+    <section class="service" id="Education">
+        <h2 class="heading">My <span>Education</span></h2>
+        <div class="service-container">
+            
+            
+            <div class="service-box">
+                <h3>B.Tech in Computer Science & Engineering</h3>
+                <p>Dr. A.P.J. Abdul Kalam Technical University (AKTU)</p>
+                <p>2022-2026</p>
+                
+            </div>
+        </div>
+    </section>
+    <!-- porfolio section -->
+    <section class="portfolio" id="Experience">
+        <h2 class="heading"> Work <span> Experience</span></h2>
+        <div class="service-container" id="Experience">
+            <div class="service-box" id="experience">
+                <h3>Web Development Trainee</h3>
+                <p>NEILET Lucknow</p>
+                <p>jun2025-aug2025</p>
+    
+    
+            </div>
+    
+    
+    
+        </div>
+    </section>
+    
+    <section class="skills-section" id="skills">
+        <h2 class="heading"> My <span> Skills </span></h2>
+        <div class="skills-container">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Node.js</div>
+            <div class="skill">Express.js</div>
+            <div class="skill">MongoDB</div>
+            <div class="skill">React</div>
+            <div class="skill">MySQL</div>
+            <div class="skill">Bootstrap</div>
+            <div class="skill">Tailwind CSS</div>
+            <div class="skill">EJS</div>
+            <div class="skill">REST APIs</div>
+            <div class="skill">Git</div>
+        </div>
+    
+    
+    </section>
+     <!-- contact section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form id="contact-form" onsubmit="sendEmail(event)">
+    
+            <div class="input_box">
+                <input type="text" name="from_name" placeholder="Contact Name" required>
+                <input type="email" name="from_email" placeholder="Contact Email" required>
+            </div>
+    
+            <div class="input_box">
+                <input type="number" name="phone" placeholder="Contact Phone">
+                <input type="text" name="address" placeholder="Contact Address">
+            </div>
+    
+            <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+    
+            <button class="btn" type="submit">Send Message</button>
+    
+        </form>
+
+      </section>
+      <!-- footer design -->
+       <footer class="footer">
+     <div class="footer-text">
+      <p>Copyright &copy; 2023 by Codehal | All Rights Reserved.</p>
+</div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+<script>
+(function(){
+ emailjs.init("MhynRxy4UQKiweH63");
+})();
+</script>
+
+<script src="index.js"></script>
+
+</body>
+</html>
